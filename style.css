@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header {
+    background-image: linear-gradient(to left, brown, rgb(122, 53, 53));
+    padding: 20px;
+    color: white;
+}
+
+header nav {
+    float: left;
+
+}
+
+header nav ul li {
+    float: left;
+    padding-left: 10px;
+    list-style: none;
+}
+
+header p {
+    float: right;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.clean {
+    clear: both;
+
+}
+
+/* End Header */
+main {
+    width: 100%;
+
+    text-align: center;
+}
+
+main section {
+
+    margin: 0px auto;
+    text-align: center;
+    padding: 30px;
+    color: white;
+
+}
+
+main section .info {
+    width: 600px;
+    margin: 0px auto;
+}
+
+main section .info h3 {
+    margin-bottom: 10px;
+}
+
+.Home,
+.Payment {
+    background-image: linear-gradient(to left, brown, black);
+}
+
+.Services,
+.Contact {
+    background-image: linear-gradient(to right, brown, black);
+
+}
+
+.Payment {
+    padding: 80px;
+}
+
+.image {
+    width: 200px;
+    position: relative;
+    float: right;
+    margin-right: 80px;
+}
+
+.image img {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+
+}
+
+.image .img-one {
+    right: 60px;
+}
+
+.image .img-Tow {
+    right: 20px;
+    top: 10px;
+
+}
+
+.image .img-three {
+    right: -35px;
+    top: 20px;
+}
+
+footer {
+    background-image: linear-gradient(to left, brown, rgb(122, 53, 53));
+    text-align: center;
+    padding: 10px;
+    color: white;
+
+}
